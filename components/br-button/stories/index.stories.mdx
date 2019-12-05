@@ -1,0 +1,41 @@
+import { Story, Preview, Meta, Props, html } from '@open-wc/demoing-storybook';
+
+import '../br-button.js';
+
+<Meta
+  title="BrButton"
+  parameters={{
+    component: "br-button",
+    options: { selectedPanel: "storybookjs/knobs/panel" }
+  }}
+/>
+
+# BrButton
+
+A component for...
+
+## Features:
+
+- a
+- b
+- ...
+
+## How to use
+
+### Installation
+
+```bash
+yarn add br-button
+```
+
+```js
+import 'br-button/br-button.js';
+```
+
+<Preview withToolbar>
+  <Story name="Simple">
+    {html`
+      <br-button>Search</br-button>
+    `}
+  </Story>
+</Preview>
